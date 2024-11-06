@@ -1,0 +1,60 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Styling for main content */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styling for list items in the nav or other lists */
+li {
+    display: inline-block;
+    width: auto; /* or a specific width, e.g., width: 100px; */
+    margin: 0 10px;
+    color: white;
+}
+
+/* Styling for h1 headings */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #4CAF50;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
