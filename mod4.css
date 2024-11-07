@@ -1,0 +1,33 @@
+/* First media query for tablets and smaller devices */
+@media (max-width: 768px) {
+    /* Adjust div styles */
+    div {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    
+    /* Adjust image styles */
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/* Second media query for mobile devices */
+@media (max-width: 480px) {
+    /* Further adjust div styles */
+    div {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    /* Further adjust image styles */
+    img {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
